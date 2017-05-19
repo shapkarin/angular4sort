@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<span class='sort' (click)="sort('asc')">Sort asc</span>
+<span class='sort' (click)="sort('desc')">Sort desc</span>
+<ul class='some heroes'>
+  <li *ngFor="let hero of heroes | orderBy : ['name'] ">{{hero.name}}</li>
+</ul>
+<ul class='some heroes'>
+  <li *ngFor="let hero of heroes | orderBy : ['-name'] ">{{hero.name}}</li>
+</ul>

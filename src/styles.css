@@ -1,0 +1,17 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.sort {
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+ul {
+  float: left;
+  width: 200px;
+}
